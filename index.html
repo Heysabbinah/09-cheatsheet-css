@@ -12,10 +12,11 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
-                background-color: white;
+                background-color: #313144;
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
+
         </style>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
@@ -27,12 +28,11 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-
     <div class="container">
+        <div id="block1"class="row">
       <div class="container header">
           <div id="logo" class="col-lg-12 hidden-xs">
-                         <div class="container logo hidden-xs "><img src="img/banner-logo.jpg"alt="huguette les bons tuyaux logo" class="img-responsive"/>
+                         <div class="container logo hidden-xs "><img src="img/banner-logo.png"alt="huguette les bons tuyaux logo" class="img-responsive"/>
                          </div>
           </div>
     </div>
@@ -52,24 +52,70 @@
           <div id="slide"class=""><!-- rendu invisible pour le smartphone-->
           <img src="img/img_css.jpg" alt="banniere css" class="img-responsive"></div>
         </nav>
+</div>
 
-
+<!-- /////////////////////////////////  TABLEAU //////////////////////////////////////-->
 
         <div class="container content">
-            <div class="row content">
+            <div class="row block1">
+                <div id="titre"class="col-lg-12">
+                    <h2 class="title">Full Css tags</h2>
+                </div>
+
+
+                <div class="row content">
                 <div id="table"class="col-lg-12">
-                    <h2 class="text-left">Full Css tags</h2>
+                    <!-- <h2 class="text-left hidden-xs hidden-md hidden-lg">Full Css tags</h2> -->
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#one" data-toggle="tab">1</a><Li>
-                        <li><a href="#two"data-toggle="tab">2</a><Li>
-                        <li><a href="#three"data-toggle="tab">3</a><Li>
+                        <li class="active"><a href="#one" data-toggle="tab"><strong>Background</strong></a><Li>
+                        <li><a href="#two"data-toggle="tab">Box</a><Li>
+                        <li><a href="#three"data-toggle="tab">Font</a><Li>
                     </ul>
-                    <div class="tab-content"><!--1 divpour chaque onglet donc 4 div-->
+                    <div class="tab-content"><!--1 div pour chaque onglet donc 4 div-->
                         <div id="one" class="tab-pane active">
                             <div class="row content">
-                                <div class="col-xs-12">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem a tellus faucibus blandit at vitae odio. Nullam eu nisi nulla. Cras tristique arcu vitae nisl fringilla, eu fringilla libero convallis. Vivamus nec erat nulla. Vestibulum at augue nec turpis fermentum blandit et sodales nunc. Mauris commodo neque ac dui elementum condimentum ut ac urna. Sed fermentum magna nec tellus consectetur, venenatis semper ante varius
-                                    </p>
+                                <div id="table1"class="col-xs-12">
+                                    <table class="u-full-width">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                              <ul>
+                                                <li><span>-image :</span> Placer une image de fond<Li>
+                                                <li><span>-position :</span> position du background<Li>
+                                                <li><span>-size :</span> taille des elements du background<Li>
+                                                <li><span>-repeat :</span> repeat de l'element du background comme image<Li>
+                                                <li><span>-attachement:</span> voir cet attribut<Li>
+                                                <li><span>-color :</span> couleur du background<Li>
+                                              </ul>
+                                          </td>
+                                          <td><ul>
+                                            <li><span>-image :</span> mettre une image de fond<Li>
+                                            <li><span>-position :</span> position du background<Li>
+                                            <li><span>-size :</span> taille des elements du background<Li>
+                                            <li><span>-repeat :</span> repeat de l'element du background comme image<Li>
+                                            <li><span>-attachement: </span><Li>
+                                            <li><span>-color :</span> couleur du background<Li>
+                                          </ul></td>
+                                          <td><ul>
+                                            <li><span>-image :</span> mettre une image de fond<Li>
+                                            <li><span>-position :</span> position du background<Li>
+                                            <li><span>-size :</span> taille des elements du background<Li>
+                                            <li><span>-repeat :</span> repeat de l'element du background comme image<Li>
+                                            <li><span>-attachement: </span><Li>
+                                            <li><span>-color :</span> couleur du background<Li>
+                                          </ul></td>
+
+                                        </tr>
+                                        <!-- <tr>
+                                          <td>Dwayne Johnson</td>
+                                          <td>42</td>
+                                          <td>Male</td>
+
+                                        </tr> -->
+                                      </tbody>
+                                    </table>
+
+    <!-- <p><strong>Background</strong></p> -->
                                 </div><!--col xs 12-->
                             </div><!--class row content-->
 
@@ -100,23 +146,7 @@
 
             </div><!--row content-->
         </div><!--container content-->
-      <!-- Example row of columns -->
-      <!-- <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div> -->
+
       </div>
 
       <hr>

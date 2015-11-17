@@ -18,6 +18,7 @@
    }
 
    body {
+     background-color: #313144;
      padding: 0;
      margin: 0;
      height: 100%;
@@ -58,6 +59,43 @@
      display: block;
    }
 
+ #titre { /*/////////////////// tableau des explications //////////////////////////////////*/
+    background-color: #ff9279;
+    height: 70px;
+    margin-bottom: 40px;
+   }
+    h2 {
+        padding-top: 0px;
+        color: white;
+    }
+    p {
+        color: white;
+    }
+    #table1 tr {
+        color: white;
+        font-size: 1.4em; /*---texte dans le table--- */
+        padding-top: 20px;
+    }
+    table {
+        margin-left: 5px; /*---met en place tout le tableau--- */
+        display: inline-block;
+
+    }
+    #table1 th {
+        padding-top: 20px;
+    }
+
+    #table li {
+        font-size: 1em;
+        list-style-type: none;
+        text-decoration: none;
+        padding-top: 10px; /*---/////espace top du tableau avant le texte ////---*/
+        display: inline-block;
+    }
+#table span {
+    color:#ff9279;
+}
+
    #access {
      zoom: 1;
    }
@@ -68,7 +106,6 @@
    #access:after {
      clear: both;
    }
-
 
    [class^="icon-"]:before,
    [class*=" icon-"]:before {
@@ -149,7 +186,7 @@
 
 #logo {
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
 
  }
 
@@ -159,15 +196,47 @@ body {
 }
 h2 {
         color: white;
+        font-size: 2em;
+        padding-top: 5px;
     }
 p {
     color: white;
 }
+#titre { /*/////////////////// tableau des explications //////////////////////////////////*/
+   background-color: #ff9279;
+   height: 40px;
+   margin-bottom: 20px;
+  }
 #slide {
     margin-top: 30px;/*---ici margin pour le smartphone et tablette le menu mord le slide--- */
 }
+table {
+    margin-left: 5px; /*---met en place tout le tableau--- */
+    list-style-type: none;
+    text-decoration: none
+}
+#table1 tr {
+    color: white;
+    font-size: 0.8em;
+}
+#table1 th { /*---/////espace top du tableau avant le texte ////---*/
+    padding-top: 10px;
+}
+#table li {
+    font-size: 1.2em; /*---/////titre des blocs tableau  ////---*/
+    list-style-type: none;
+    text-decoration: none
+
+}
 }
    @media only screen and (max-width: 768px) {
+
+       #titre { /*/////////////////// tableau des explications //////////////////////////////////*/
+          background-color: #ff9279;
+          height: 45px;
+          margin-bottom: 30px;
+         }
+
      #menu {
        -webkit-transform-style: preserve-3d;
        -moz-transform-style: preserve-3d;
@@ -248,6 +317,8 @@ p {
        transform: rotateX(0) scale(1);
      }
    }
+
+   
    @media only screen and (min-width: 768px) {
      [class^="icon-"]:before,
      [class*=" icon-"]:before {
@@ -255,10 +326,8 @@ p {
        text-align: center;
        margin-right: 0;
      }
-
-
      #access a.skip-link {
-        margin-top: 20px;
+        margin-top: 50px;
        display: none;
      }
 
