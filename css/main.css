@@ -18,13 +18,13 @@
    }
 
    body {
-     background-color: #313144;
+
      padding: 0;
      margin: 0;
      height: 100%;
      font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
    }
-
+   
    #wrapper {
      position: relative;
 
@@ -67,6 +67,10 @@
     h2 {
         padding-top: 0px;
         color: white;
+    }
+    h3 {
+        color : white;
+
     }
     p {
         color: white;
@@ -191,6 +195,7 @@
  }
 
 @media only screen and (max-width: 599px) {
+
 body {
         background-color: #363650;;
 }
@@ -202,6 +207,9 @@ h2 {
 p {
     color: white;
 }
+
+
+
 #titre { /*/////////////////// tableau des explications //////////////////////////////////*/
    background-color: #ff9279;
    height: 40px;
@@ -210,11 +218,17 @@ p {
 #slide {
     margin-top: 30px;/*---ici margin pour le smartphone et tablette le menu mord le slide--- */
 }
-table {
+#table {
     margin-left: 5px; /*---met en place tout le tableau--- */
     list-style-type: none;
-    text-decoration: none
+    text-decoration: none;
 }
+#table li {
+    font-size: 1em; /*---///// TEXTES tableau  ////---*/
+    list-style-type: none;
+    text-decoration: none;
+}
+
 #table1 tr {
     color: white;
     font-size: 0.8em;
@@ -222,16 +236,11 @@ table {
 #table1 th { /*---/////espace top du tableau avant le texte ////---*/
     padding-top: 10px;
 }
-#table li {
-    font-size: 1.2em; /*---/////titre des blocs tableau  ////---*/
-    list-style-type: none;
-    text-decoration: none
 
-}
 }
    @media only screen and (max-width: 768px) {
 
-       #titre { /*/////////////////// tableau des explications //////////////////////////////////*/
+#titre { /*/////////////////// tableau des explications //////////////////////////////////*/
           background-color: #ff9279;
           height: 45px;
           margin-bottom: 30px;
@@ -317,9 +326,12 @@ table {
        transform: rotateX(0) scale(1);
      }
    }
+span {
+    font-size: 1.4em;
+}
 
-   
    @media only screen and (min-width: 768px) {
+
      [class^="icon-"]:before,
      [class*=" icon-"]:before {
        display: block;

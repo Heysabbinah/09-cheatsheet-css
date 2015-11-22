@@ -41,6 +41,7 @@
         <nav role="navigation" id="access">
         <a class="skip-link icon-reorder" title="Accéder au menu" href="#menu">Menu</a>
             <ul id="menu">
+
                    <li><a href="http://heysabbinah.github.io/02-cheat-macos/">Os X</a></li><!-- whitespace
                 --><li><a href="http://heysabbinah.github.io/03-cheatsheet-unix/">Unix</a></li><!-- whitespace
                 --><li><a href="http://heysabbinah.github.io/04-cheatsheet-git-github/">Git</a></li><!-- whitespace
@@ -68,88 +69,254 @@
                 <div id="table" class="col-lg-12">
                     <!-- <h2 class="text-left hidden-xs hidden-md hidden-lg">Full Css tags</h2> -->
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#one" data-toggle="tab"><strong>Background</strong></a><Li>
-                        <li><a href="#two" data-toggle="tab">Box</a><Li>
-                        <li><a href="#three" data-toggle="tab">Font</a><Li>
+                        <li class="active"><a href="#first" data-toggle="#tab"><strong>STYLE</strong></a><Li>
+                        <li><a href="#two" data-toggle="tab">ELEMENT</a><Li>
+                        <li><a href="#three" data-toggle="tab">BOX</a><Li>
                     </ul>
 
                     <div class="tab-content"><!--1 div pour chaque onglet donc 4 div-->
-                        <div id="one" class="tab-pane active">
+                        <div id="first" class="tab-pane active">
                             <div class="row content">
                                 <div id="table1" class="col-xs-12">
                                     <table class="u-full-width">
                                       <tbody>
+                                          <th>BACKGROUND</th>
                                         <tr>
                                           <td>
                                               <ul>
-                                                <li><span>-image :</span> Placer une image de fond<Li>
-                                                <li><span>-position :</span> position du background<Li>
-                                                <li><span>-size :</span> taille des elements du background<Li>
-                                                <li><span>-repeat :</span> repeat de l'element du background comme image<Li>
-                                                <li><span>-attachement:</span> voir cet attribut<Li>
-                                                <li><span>-color :</span> couleur du background<Li>
+                                                <li><code>background</code></span> Background de la page<Li>
+                                                <li><code>background-attachement</code> Attachement<Li>
+                                                <li><code>background-color</code> Color backgrd<Li>
+                                                <li><code>background-image</code> Backgd image<Li>
+                                                <li><code>background-position</code> Position<Li>
+                                                <li><code>background-repeat</code> Repeat de l'image<Li>
                                               </ul>
                                           </td>
                                           <td><ul>
-                                            <li><span>-image :</span> mettre une image de fond<Li>
-                                            <li><span>-position :</span> position du background<Li>
-                                            <li><span>-size :</span> taille des elements du background<Li>
-                                            <li><span>-repeat :</span> repeat de l'element du background comme image<Li>
-                                            <li><span>-attachement: </span><Li>
-                                            <li><span>-color :</span> couleur du background<Li>
-                                          </ul></td>
-                                          <td><ul>
-                                            <li><span>-image :</span> mettre une image de fond<Li>
-                                            <li><span>-position :</span> position du background<Li>
-                                            <li><span>-size :</span> taille des elements du background<Li>
-                                            <li><span>-repeat :</span> repeat de l'element du background comme image<Li>
-                                            <li><span>-attachement: </span><Li>
-                                            <li><span>-color :</span> couleur du background<Li>
-                                          </ul></td>
-
+                                            <li><code>background-clip</code> Position backgrd</Li>
+                                            <li><code>background-origin</code> Placement du ba</Li>
+                                            <li><code>background-size</code>  Taille des elements du background</Li>
+                                            <li><code>background-repeat</code> Repeat de l'element du background comme image</Li>
+                                          </td>
                                         </tr>
-
+                                        <th>COLOR</th>
+                                            <tr>
+                                             <td>
+                                              <ul>
+                                        <li><code>color</code> Ajout de couleur a la page </Li>
+                                        <li><code>opacity</code> Transparence/opacité d'un element de la page</Li>
+                                              </ul>
+                                              </td>
+                                             </tr>
+                                             <th>FONT</th>
+                                                 <tr>
+                                                  <td>
+                                                   <ul>
+                                                     <li><code>font</code> Style police d'un element <Li>
+                                                     <li><code>font-family</code> Groupe d'une famille de police</Li>
+                                                    <li><code>font-size</code> Taille police</Li>
+                                                    <li><code>font-style</code> Style police</Li>
+                                                    </td>
+                                                    <td>
+                                                    <li><code>font-variante</code> Variante police</Li>
+                                                    <li><code>font-weight</code> Style du corps de la police</Li>
+                                                    <li><code>@font-face</code> Famille de police en ligne</Li>
+                                                    <li><code>font-size-adjust</code> Taille de la font - ajustement </Li>
+                                                   </ul>
+                                                   </td>
+                                                  </tr>
+                                                  <th>POSITIONNING</th>
+                                                      <tr>
+                                                       <td>
+                                                        <ul>
+                                                          <li><code>bottom</code> Position d'un element en dessous<Li>
+                                                          <li><code>clear</code> Clear</Li>
+                                                         <li><code>clip</code> Clip</Li>
+                                                         <li><code>cursos</code> Cursor</Li>
+                                                         <li><code>display</code> Display d'un element ou d'un groupe</Li>
+                                                         <li><code>float</code> Flottement d'un element/bloc de la page </Li>
+                                                         <li><code>left</code> Position d'un element a gauche</Li>
+                                                         </td>
+                                                         <td>
+                                                         <li><code>position</code> Position d 'un element dans la page</Li>
+                                                         <li><code>right</code> Position d'un element a droite </Li>
+                                                         <li><code>overflow</code> Flotement de la fenetre/scroll </Li>
+                                                        <li><code>top</code> Position d'un element en haut </Li>
+                                                        <li><code>visibility</code> Visibilité d 'un element</Li>
+                                                        <li><code>z-index</code> Position sous couche des elements de la page </Li>
+                                                        </ul>
+                                                        </td>
+                                                       </tr>
+                                                       <th>LIST</th>
+                                                           <tr>
+                                                            <td>
+                                                             <ul>
+                                                       <li><code>list-style</code> Style de la liste element de la page</Li>
+                                                       <li><code>list-style-image</code> Style image</Li>
+                                                       <li><code>list-style-position</code> Position liste</Li>
+                                                       <li><code>list-style-type</code> Style de la liste</Li>
+                                                             </ul>
+                                                             </td>
+                                                         </tr>
                                       </tbody>
                                     </table>
-
-
                                 </div><!--col xs 12-->
                             </div><!--class row content-->
 
-                            <div class="row content text-center"><!--ici nouveau row nouveaut tableau text center pour tout aligner-->
-                                <div class="col-xs-3"><!--ici 3 car 4 colonne donc 12 en entier-->
-                                    <img class="collection mini">
-                                </div>
-                                <div class="col-xs-3">
-                                    <img class="fabric mini">
-                                </div>
-                                <div class="col-xs-3">
-                                    <img class="box mini">
-                                </div>
-
-                            </div><!--row content-->
+<!-- /////////////////////////// deuxiement onglet //////////////////////////////////////-->
 
                         </div><!--div one-->
-                        <div id="two" class="tab-pane"><p>2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem a tellus faucibus blandit at vitae odio. Nullam eu nisi nulla. Cras tristique arcu vitae nisl fringilla, eu fringilla libero convallis. Vivamus nec erat nulla. Vestibulum at augue nec turpis fermentum blandit et sodales nunc. Mauris commodo neque ac dui elementum condimentum ut ac urna. Sed fermentum magna nec tellus consectetur, venenatis semper ante varius
-                                                        </p></div>
-                        <div id="three" class="tab-pane"><p>3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non sem a tellus faucibus blandit at vitae odio. Nullam eu nisi nulla. Cras tristique arcu vitae nisl fringilla, eu fringilla libero convallis. Vivamus nec erat nulla. Vestibulum at augue nec turpis fermentum blandit et sodales nunc. Mauris commodo neque ac dui elementum condimentum ut ac urna. Sed fermentum magna nec tellus consectetur, venenatis semper ante varius
-                                                        </p></div>
-                        </div>
-                    </div><!--tab content-->
-                </div><!--1ere col 6-->
-                    <div class="col-xs-6">
-                        <h2 class="text-center">une suite ?</h2>
-                    </div><!--2ieme col 6-->
+                        <div id="two" class="tab-pane"><p><div id="table1" class="col-xs-12">
+                            <table class="u-full-width">
+                              <tbody>
+                                  <th>TEXT</td>
+                                <tr>
+                                 <td>
+                                  <ul>
+                                    <li><code>color</code> Couleur du texte dans la page<Li>
+                                    <li><code>direction</code> Direction du text dans la page</Li>
+                                   <li><code>letter-spacing</code> Inter lettrage des paragraphes </Li>
+                                   <li><code>line-height</code> Hauteur de ligne des paragraphes de la page</Li>
+                                   <li><code>text-align</code> Alignement du texte</Li>
+                                   <li><code>text-decoration</code> Decoration texte ou list</Li>
+                                   <li><code>text-indent</code> Texte indent de la page</Li>
+                                   <li><code>text-transform</code> Transform text</Li>
+                                   </td>
+                                   <td>
+                                   <li><code>vertical-align</code> Alignement vertical</Li>
+                                   <li><code>white-spacing</code> Espace blanc</Li>
+                                   <li><code>text-outline</code> Text outline</Li>
+                                   <li><code>text-overflow</code> Texte overflow</Li>
+                                   <li><code>text-shadow</code> Ombre texte</Li>
+                                   <li><code>text-wrap</code> Texte wrap</Li>
+                                   <li><code>word-break</code> Cesure</Li>
+                                   <li><code>word-wrap</code> Texte wrap</Li>
+                                   </td>
+                               </ul>
+                           </tr>
 
-            </div><!--row content-->
-        </div><!--container content-->
+                           <th>PSEUDO-SELECTOR</td>
+                         <tr>
+                          <td>
+                           <ul>
+                             <li><code>:link</code> lien dans la page<Li></br>
+                             <li><code>:visited</code> lien visité</Li></br>
+                            <li><code>:active</code> Actif</Li><br>
+                            <li><code>:hover</code> Survol</Li><br>
+                            <li><code>:focus</code> Focus</Li><br>
+                            <li><code>:first-letter</code> Premiere lettre</Li><br>
+                            <li><code>:first-line</code> Premiere ligne</Li><br>
+                            <li><code>:first-child</code> Premier enfant</Li><br>
+                            </td>
+                            <td>
+                            <li><code>:before</code> Before</Li><br>
+                            <li><code>:after</code> Apres</Li><br>
+                            <li><code>:lang</code> Langue</Li><br>
+                            <li><code>:target</code> Cible</Li><br>
+                            <li><code>:enabled</code> Enable</Li><br>
+                            <li><code>:disabled</code> Disabled</Li><br>
+                            <li><code>:checked</code> Checked</Li><br>
+                            <li><code>:selection</code> Selection</Li>
+                            </td>
+                        </ul>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
 
-      </div>
+<!-- /////////////////////////// troisieme  onglet //////////////////////////////////////-->
+
+                        <div id="three" class="tab-pane">
+                            <div id="table1" class="col-xs-12">
+                            <table class="u-full-width">
+                              <tbody>
+                                  <th>MARGIN</td>
+                                <tr>
+                                 <td>
+                                  <ul>
+                                    <li><code>margin</code> Style Marge de la page<Li><br>
+                                    <li><code>margin-bottom</code> Marge dessous</Li><br>
+                                   <li><code>margin-left</code> Marge de gauche</Li><br>
+                                   <li><code>margin-right</code> Marge de droite</Li><br>
+                                   <li><code>margin-top</code> Marge du haut</Li><br>
+                                   </td>
+                               </ul>
+                           </tr>
+                           <th>PADDING</td>
+                         <tr>
+                          <td>
+                           <ul>
+                             <li><code>padding</code> Marge interne<Li><br>
+                             <li><code>padding-bottom</code> Marge interne dessous</Li><br>
+                            <li><code>padding-left</code> Marge interne de gauche</Li><br>
+                            <li><code>padding-right</code> Marge interne de droite</Li><br>
+                            <li><code>padding-top</code> Marge interne du haut</Li><br>
+                            </td>
+                        </ul>
+                    </tr>
+                    <th>DIMENSION</td>
+                  <tr>
+                   <td>
+                    <ul>
+                      <li><code>height</code> Hauteur<Li><br>
+                      <li><code>width</code> Largeur</Li><br>
+                     <li><code>max-width</code> Largeur max</Li><br>
+                     <li><code>min-height</code> Hauteur minimum</Li><br>
+                     <li><code>min-width</code> Largeur minimum</Li><br>
+                     </td>
+                 </ul>
+             </tr>
+             <th>BORDER AND OUTLINE</td>
+           <tr>
+            <td>
+             <ul>
+               <li><code>border</code> Bordure<Li><br>
+              <li><code>border-bottom</code> Bordure dessous<Li><br>
+              <li><code>border-bottom-color</code> Color bordure dessous<Li><br>
+              <li><code>border-bottom-style</code> Style bordure dessous<Li><br>
+              <li><code>border-color</code> Color bordure<Li><br>
+              <li><code>border-left</code> Bordure gauche<Li><br>
+              <li><code>border-left-color</code> Color bordure gauche<Li><br>
+             <li><code>border-left-style</code> Style bordure gauche<Li><br>
+             <li><code>border-right</code> Bordure droite<Li><br>
+             <li><code>border-right-color</code> Color bordure droite<Li><br>
+             <li><code>border-right-style</code> Style bordure droite<Li><br>
+             <li><code>border-style</code> Style bordure<Li><br>
+            </td>
+            <td>
+             <li><code>border-top</code> Bordure du haut<Li><br>
+            <li><code>border-top-color</code> Color bordure haut<Li><br>
+            <li><code>border-top-style</code> Bordure top style<Li><br>
+            <li><code>border-width</code> Largeur bordure<Li><br>
+            <li><code>outline</code> Outline<Li><br>
+            <li><code>outline-color</code> Color outline<Li><br>
+            <li><code>outline-style</code> Style outline<Li><br>
+            <li><code>border-bottom-left-radius</code> Arrondi dessous gauche<Li><br>
+            <li><code>border-bottom-right-radius</code> Arrondi dessous droit<Li><br>
+            <li><code>border-image</code> Bordure image<Li><br>
+            <li><code>border-radius</code> Arrondie box<Li><br>
+            <li><code>border-box-shadow</code> Ombre box<Li><br>
+            </td>
+          </ul>
+      </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
+
+
+</div><!--row content-->
+</div><!--container content-->
+</div>
 
       <hr>
 
       <footer>
-        <p>&copy; All rights Huguettes les bons tuyaux - 2015</p>
+          <div class="row footer">
+        <p> &copy; All rights Huguettes les bons tuyaux - 2015</p>
+        </div>
       </footer>
     </div> <!-- /container -->
     </div><!-- Fin de div wrapper -->
